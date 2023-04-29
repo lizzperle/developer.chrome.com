@@ -58,7 +58,7 @@ resource and select **Reveal in Network panel**.
 
 ### Browse resources in the Network panel {: #network }
 
-See [Log network activity][5].
+See [Log ivity][5].
 
 {% Img src="image/admin/LjlsVzvEYBHIq89pyPvX.png", alt="Page resources in the Network Log", width="800", height="670" %}
 

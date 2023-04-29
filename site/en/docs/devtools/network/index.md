@@ -1,6 +1,6 @@
 ---
 layout: "layouts/doc-post.njk"
-title: "Inspect network activity"
+title: "Inspect ivity"
 authors:
   - kaycebasques
 date: 2019-02-08
@@ -12,7 +12,7 @@ tags:
 ---
 
 This is a hands-on tutorial of some of the most commonly-used DevTools features related to
-inspecting a page's network activity.
+inspecting a page's ivity.
 
 See [Network Reference][1] if you'd like to browse features instead.
 
@@ -30,7 +30,7 @@ uploaded as expected. The most common use cases for the Network panel are:
   so on.
 
 If you're looking for ways to improve page load performance, _don't_ start with the Network panel.
-There are many types of load performance issues that aren't related to network activity. Start with
+There are many types of load performance issues that aren't related to ivity. Start with
 the Audits panel because it gives you targeted suggestions on how to improve your page. See
 [Optimize Website Speed][2].
 
@@ -69,14 +69,14 @@ To get the most out of this tutorial, open up the demo and try out the features 
 
     **Figure 5**. DevTools docked to the bottom of the window
 
-Right now the Network panel is empty. That's because DevTools only logs network activity while it's
-open and no network activity has occurred since you opened DevTools.
+Right now the Network panel is empty. That's because DevTools only logs ivity while it's
+open and no ivity has occurred since you opened DevTools.
 
-## Log network activity {: #load }
+## Log ivity {: #load }
 
-To view the network activity that a page causes:
+To view the ivity that a page causes:
 
-1.  Reload the page. The Network panel logs all network activity in the **Network Log**.
+1.  Reload the page. The Network panel logs all ivity in the **Network Log**.
 
     {% Img src="image/BrQidfK9jaQyIHwdw91aVpkPiib2/Q4AZ84qTJLEnfToJYVLR.png", alt="The Network Log", width="800", height="670" %}
 
@@ -103,7 +103,7 @@ To view the network activity that a page causes:
 
       {% endAside %}
 
-2.  So long as you've got DevTools open, it will record network activity in the Network Log. To
+2.  So long as you've got DevTools open, it will record ivity in the Network Log. To
     demonstrate this, first look at the bottom of the **Network Log** and make a mental note of the
     last activity.
 3.  Now, click the **Get Data** button in the demo.
@@ -182,12 +182,12 @@ Screenshots let you see how a page looked over time while it was loading.
 
     **Figure 12**. Screenshots of the page load
 
-3.  Click the first thumbnail. DevTools shows you what network activity was occurring at that moment
+3.  Click the first thumbnail. DevTools shows you what ivity was occurring at that moment
     in time.
 
-    {% Img src="image/BrQidfK9jaQyIHwdw91aVpkPiib2/P2z9yzPK20RPe4pKDEtA.png", alt="The network activity that was happening during the first screenshot", width="800", height="672" %}
+    {% Img src="image/BrQidfK9jaQyIHwdw91aVpkPiib2/P2z9yzPK20RPe4pKDEtA.png", alt="The ivity that was happening during the first screenshot", width="800", height="672" %}
 
-    **Figure 13**. The network activity that was happening during the first screenshot
+    **Figure 13**. The ivity that was happening during the first screenshot
 
 4.  Click **Capture Screenshots**
     {% Img src="image/BrQidfK9jaQyIHwdw91aVpkPiib2/wXN8qM2CVEuXXSDEANQP.png", alt="Capture Screenshots", width="26", height="16" %} again to close
@@ -227,7 +227,7 @@ Click a resource to learn more information about it. Try it now:
 
     {% endAside %}
 
-4.  Click the **Timing** tab. A breakdown of the network activity for this resource is shown.
+4.  Click the **Timing** tab. A breakdown of the ivity for this resource is shown.
 
     {% Img src="image/BrQidfK9jaQyIHwdw91aVpkPiib2/9zzih7q9yqAejNmzfoIM.png", alt="The Timing tab", width="800", height="736" %}
 
@@ -383,7 +383,7 @@ completely, or is it still somewhat functional? Block requests to find out:
 Congratulations, you have completed the tutorial. Click **Dispense Award** to receive your award.
 
 Check out the [Network Reference][12] to discover more DevTools features related to inspecting
-network activity.
+ivity.
 
 [1]: /docs/devtools/network/reference
 [2]: /docs/devtools/speed/get-started
